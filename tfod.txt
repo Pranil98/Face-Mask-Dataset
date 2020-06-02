@@ -1,19 +1,14 @@
                                                   TFOD Setup 
 
-https://github.com/tensorflow/models/tree/master/research/object_detection   
+1..    https://github.com/tensorflow/models/tree/v1.13.0      ###  Download Repo
 
-https://github.com/tensorflow/models/tree/v1.13.0  ###  Download Repo
+2..  Model ZOO---  https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md
+                                             OR
+                   Select directly SSD MobileNet_V1   given below  http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_2018_01_28.tar.gz
 
-http://download.tensorflow.org/models/object_detection/faster_rcnn_inception_v2_coco_2018_01_28.tar.gz ### Download
+3..   https://drive.google.com/file/d/12F5oGAuQg7qBM_267TCMt_rlorV-M7gf/view?usp=sharing   # Dataset & utils Download
 
-https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md
-
-https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md
-
-https://drive.google.com/file/d/12F5oGAuQg7qBM_267TCMt_rlorV-M7gf/view?usp=sharing   # Dataset & utils Download
-
-
-https://tzutalin.github.io/labelImg/  # Download
+4..   https://tzutalin.github.io/labelImg/  # Download
 
 
 STEP-1 
