@@ -17,14 +17,18 @@ It tooks 1 hour 10 min in google colab with 20000 epochs and then tested in my l
 
    Steps in google colab
    
-a.  %tensorflow_version 1.x     
+a.  %tensorflow_version 1.x   
+
 b.   import os   
 RESEARCH_DIR = "/content/drive/My Drive/PATH_TO_TFOD/tfod/models-1.13.0/research"         #Provide your path
 
 c.  os.chdir(RESEARCH_DIR)
+
 d.  os.getcwd()
+
 e.  This is training code in python 
       !python train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/ssdlite_mobilenet_v1_coco.config
+
 f.  Copy and paste following code in your browser console(To open console Press Ctrl+Shift+I and paste it) to prevent Google                   Colab from terminating- JS code1-
    
       function ClickConnect(){
