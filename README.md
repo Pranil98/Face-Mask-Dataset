@@ -12,7 +12,7 @@ It tooks 1 hour 10 min in google colab with 20000 epochs and then tested in my l
 </p>
 
 
-## Note  Follow tfod_setup instructions till Step-16 bcoz Step-17 is training in local system and u can perform below lines for faster training in Google Colab.
+## Note -- Follow tfod_setup instructions till Step-16 bcoz Step-17 is training in local system and u can perform below lines for faster training in Google Colab.
 2. I have trained in google colab so for that you have to mount your google drive in google colab and in google drive upload the file content of models 
 
    Steps in google colab
