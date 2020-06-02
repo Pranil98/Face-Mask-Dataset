@@ -20,6 +20,7 @@ It tooks 1 hour 10 min in google colab with 20000 epochs and then tested in my l
 a.  %tensorflow_version 1.x     
 b.   import os   
 RESEARCH_DIR = "/content/drive/My Drive/PATH_TO_TFOD/tfod/models-1.13.0/research"         #Provide your path
+
 c.  os.chdir(RESEARCH_DIR)
 d.  os.getcwd()
 e.  This is training code in python 
