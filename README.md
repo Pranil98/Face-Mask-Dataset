@@ -5,7 +5,7 @@ I have developed this face mask detector using 1500 images with and without mask
 
 It tooks 1 hour 10 min in google colab with 20000 epochs and then tested in my local system.
 
-1. Setup your environment and installed the packages required briefly provided in tfod_setup.
+1. Setup your environment and installed the packages required ,briefly provided in tfod_setup file.
 
 <p align="center">
 <img src="https://github.com/Pranil98/Face-Mask-Detector/blob/master/Screenshots/1.PNG" alt="command">
@@ -17,20 +17,22 @@ It tooks 1 hour 10 min in google colab with 20000 epochs and then tested in my l
 
    Steps in google colab
    
-   1  %tensorflow_version 1.x     
-   2   import os
+a.  %tensorflow_version 1.x     
+b.   import os
        RESEARCH_DIR = "/content/drive/My Drive/PATH_TO_TFOD/tfod/models-1.13.0/research"         #Provide your path
-   3  os.chdir(RESEARCH_DIR)
-   4  os.getcwd()
-   5  This is training code in python 
+c.  os.chdir(RESEARCH_DIR)
+d.  os.getcwd()
+e.  This is training code in python 
       !python train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/ssdlite_mobilenet_v1_coco.config
-   6  Copy and paste following code in your browser console(To open console Press Ctrl+Shift+I and paste it) to prevent Google                   Colab from terminating- JS code1-
+f.  Copy and paste following code in your browser console(To open console Press Ctrl+Shift+I and paste it) to prevent Google                   Colab from terminating- JS code1-
    
       function ClickConnect(){
       console.log("Working"); 
       document.querySelector("colab-toolbar-button").click() 
       }setInterval(ClickConnect,60000)
       
+
+
 <p align="center">
 <img src="https://github.com/Pranil98/Face-Mask-Detector/blob/master/Screenshots/colabOutPut.png" alt="command">
 </p>
