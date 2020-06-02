@@ -99,6 +99,8 @@ STEP-16
 
 Copy deployment and nets folder from research/slim into the research folder
 
+## Important--   If u going to follow the next step i.e. training your model in local setup it will take time .So train in google colab by following the steps in description of github and download training folder and replace with your local system training folder and run stepno.18##
+
 STEP-17
 
 NOW Run the following command from the research folder. This will start the training in your local system::
