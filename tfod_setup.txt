@@ -1,6 +1,6 @@
                                                   TFOD Setup 
 
-1..    https://github.com/tensorflow/models/tree/v1.13.0      ###  Download Repo
+1..    https://github.com/tensorflow/models/tree/v1.13.0      ###  Download whole Repo
 
 2..  Model ZOO---  https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md
                                              OR
@@ -9,6 +9,10 @@
 3..   https://drive.google.com/file/d/12F5oGAuQg7qBM_267TCMt_rlorV-M7gf/view?usp=sharing   # Dataset & utils Download
 
 4..   https://tzutalin.github.io/labelImg/  # Download
+
+5..
+For protobuff to py conversion
+https://github.com/protocolbuffers/protobuf/releases/download/v3.11.0/protoc-3.11.0-win64.zip      #### Download 
 
 
 STEP-1 
@@ -21,6 +25,8 @@ Download the ssd_mobilenet_v1_coco model from the model zoo or any other model o
 Download Dataset & utils.
 
 Download labelImg tool for labeling images.
+
+Create a folder in C drive and paste all the download files.
 
 STEP-2
 
